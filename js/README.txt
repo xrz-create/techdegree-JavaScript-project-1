@@ -1,0 +1,1 @@
+This is just a README file. I did make some edits to the index.html file to exceed expectations. Other than that, let me know what could be better. Thanks for taking the time to grade my project.
