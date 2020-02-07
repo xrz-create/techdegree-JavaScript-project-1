@@ -12,11 +12,11 @@ project 1 - A Random Quote Generator
 
 //here's a bunch of random quotes
 var quotes = [
-  {quote: "yeeyupyupyupyupyupyup...aoh-hou, aoh-hou", source: "sesame street aliens", topic: "noises"},
-  {quote: "mmmmmmmmm...oh.. ohhhhhh", source: "Jeff Goldblum", topic: "noises"},
-  {quote: "if cats could talk, they wouldn't", source: "Nan Porter", citation: "Good Housekeeping.com", year: "2020", topics: "good stuff"},
-  {quote: "mlaaaaaaaaa", source: "Goat, probably", topic: "noises"},
-  {quote: "weeoooo - weeoooo", source: "Ambulance", topic: "noises"}
+  {quote: "yeeyupyupyupyupyupyup...aoh-hou, aoh-hou", source: "sesame street aliens", topic: "#noises"},
+  {quote: "mmmmmmmmm...oh.. ohhhhhh", source: "Jeff Goldblum", topic: "#noises"},
+  {quote: "if cats could talk, they wouldn't", source: "Nan Porter", citation: "Good Housekeeping.com", year: "2020", topic: "#good stuff"},
+  {quote: "mlaaaaaaaaa", source: "Goat, probably", topic: "#noises"},
+  {quote: "weeoooo - weeoooo", source: "Ambulance", topic: "#noises"}
 ];
 
 function changeBackground(){
@@ -55,7 +55,7 @@ function printQuote() {
   document.getElementById('quote-box').innerHTML = htmlString;
 }
 
-setInterval(printQuote, 20000);
+setInterval(printQuote, 10000);
 
 //console.log(printQuote());
 

@@ -101,11 +101,13 @@ h1 {
   content: "—";
 }
 
-.citation {
+.citation,
+.topic {
   font-style: italic;
 }
 
-.citation:before {
+.citation:before,
+.topic:before {
   content: ", ";
   font-style: normal;
 }
